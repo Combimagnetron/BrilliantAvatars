@@ -1,0 +1,11 @@
+name: BrilliantAvatars
+version: '${version}'
+main: com.combimagnetron.brilliantavatars.BrilliantAvatars
+api-version: 1.19
+authors: [ Combimagnetron ]
+softdepend:
+  - PlaceholderAPI
+commands:
+  toggle:
+    description: Toggles the Avatar visibility.
+    permission: brilliantavatars.toggle

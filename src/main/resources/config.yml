@@ -1,0 +1,8 @@
+# The custom placeholder system uses the same syntax as the PAPI placeholders but with '<expression>' instead of '%expression%'
+# This feature needs to be enabled to force avatar visibility in GUIs and anywhere if you want custom fonts (not default.json). It does still parse inner PAPI placeholders
+custom-placeholders:
+  enabled: true
+  chat-enabled: true
+  scoreboard-enabled: true
+  gui-enabled: true
+
